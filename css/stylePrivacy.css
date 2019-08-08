@@ -1,0 +1,130 @@
+body{
+   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+   margin: 0;
+}
+a{
+   text-decoration: none;
+}
+
+/*Head*/
+
+header{
+   display: block;
+   background: white;
+   width: 100%;
+}
+
+.logo{
+   width: 19%;
+   min-width: 250px;
+   padding: 17px 0;
+   display: block;
+   margin: auto;
+   cursor: pointer;
+}
+
+#navBar{
+   position: fixed;
+   background-color: #ffffff;
+   z-index: 100;
+}
+
+/*Main*/
+
+main{
+   text-align: left;
+   padding: 20px 40px 40px;
+   width: 75%;
+   margin: auto;
+}
+
+h1{
+   padding: 23px 0;
+   font-size:24px;
+   line-height: 31px;
+   letter-spacing: 1px;
+   font-weight: 600;
+   font-family: Helvetica;   
+   color: #333333;
+   text-align: left;
+   border-top: 1px solid #bbbbbb;
+   border-bottom: 1px solid #bbbbbb;;
+   margin-top: 47px;
+   background: #f8f9f9;
+}
+
+#containerPolicy p, li{
+   color:#777777;
+   font-size: 14px;
+   line-height:23.8px;
+   font-weight: 400;
+}
+
+/*footer*/
+footer{
+   height: 129px;
+   position: relative;    
+   margin-top: 67px;
+   background: #3f3f3f;   
+   width: 100%;
+   font-weight: 700;
+   letter-spacing: 0.8px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact{
+   background: #1e1e1e;
+}
+
+#sendEmail, #socialMedia{
+   text-align: center;
+   width: 50%;
+   position: absolute;
+   background: #1e1e1e;
+   color:#ffffff;
+   font-size: 14px;
+   box-sizing: border-box;
+}
+
+#sendEmail{
+   padding: 19px;
+   left: 0;
+}
+
+#sendEmail label, .footer-social-icons{
+   margin-top: 10px;
+}
+
+#sendEmail div {
+   font-weight: 500;
+   margin-top: 25px;
+   text-decoration: none;
+   background: transparent;
+}
+
+#sendEmail div a{
+   color:white;
+}
+
+#socialMedia{
+   padding: 18.25px 20px;
+   right: 0;
+}
+
+#twitterIcon, #linkedinIcon{
+   width: 30px;   
+   text-decoration: none;
+}
+
+#copyright{
+   position: relative;
+   top: 103px;
+   color: #bbbbbb;
+   font-size: 14px;
+   text-align: center;
+}
+
+#privacy{
+   color:rgb(243, 235, 235);
+   font-size: 14px;
+}

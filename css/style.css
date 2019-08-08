@@ -1,0 +1,143 @@
+body{
+   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+}
+
+a{
+   text-decoration: none;
+}
+/*Head*/
+
+header{
+   display: block;
+   width: 100%;
+   background-color: white;
+}
+
+.logo{
+   width: 19%;   
+   min-width: 250px;
+   padding: 17px 0;
+   display: block;
+   margin: auto;
+   cursor: pointer;
+}
+
+/*Main*/
+
+main{
+   padding: 41px 0;
+   /* background-image: url("../images/apple-cup-desk-7974.jpg"); */
+   background-image: url("../images/background-image/employee-work-on-laptop-2000.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-color: rgb(109, 151, 103);
+   flex-grow: 1;
+}
+
+main .container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+h1{
+   padding: 47px 50px;
+   font-size:30px;
+   line-height: 39px;
+   letter-spacing: 4px;
+   font-weight: 800;
+   font-family: Helvetica;
+   text-align: center;
+}
+
+.container p{
+   padding: 30px 181px;
+   font-family: "Open Sans";
+   font-size:22px;
+   text-align: justify;
+}
+
+h1,.container p{
+   margin: 0;
+   color:white;
+}
+
+#smallTurquise{
+   color:#3cd6ce;
+   font-weight: 700;
+}
+
+/*footer*/
+footer{
+   position: relative;
+   background: #3f3f3f;   
+   width: 100%;
+   font-weight: 700;
+   letter-spacing: 0.8px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-info{
+   display: flex;
+}
+
+#contact{
+   background: #1e1e1e;
+}
+
+#sendEmail, #socialMedia{
+   text-align: center;
+   width: 50%;
+   background: #1e1e1e;
+   color:#ffffff;
+   font-size: 14px;
+   box-sizing: border-box;
+}
+
+#sendEmail{
+   padding: 19px;
+   left: 0;
+}
+
+#sendEmail label, .footer-social-icons{
+   margin-top: 10px;
+}
+
+#sendEmail div {
+   font-weight: 500;
+   margin-top: 17px;
+   margin-bottom: 8px;
+   text-decoration: none;
+   background: transparent;
+}
+
+#sendEmail div a{
+   color:white;
+}
+
+#socialMedia{
+   padding: 18.25px 20px;
+   right: 0;
+}
+
+#twitterIcon, #linkedinIcon{
+   width: 30px;   
+   text-decoration: none;
+}
+
+#copyright{
+   position: relative;
+   color: #bbbbbb;
+   font-size: 14px;
+   text-align: center;
+}
+
+#privacy{
+   color:rgb(243, 235, 235);
+   font-size: 14px;
+}
