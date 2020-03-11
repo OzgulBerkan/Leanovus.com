@@ -22,7 +22,7 @@
 
 @keyframes animate{
    0%{
-      position: relative;   
+      position: absolute;   
    }
    0.00001%{
       opacity: 0;
