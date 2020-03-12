@@ -45,10 +45,6 @@ main .container{
    justify-content: center;
 }
 
-p#wordWe{
-   color: white;
-}
-
 h1{
    padding: 47px 50px;
    font-size:30px;
