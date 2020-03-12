@@ -12,6 +12,7 @@
    overflow: hidden;
    animation: animate 20s linear infinite;
    opacity: 0;
+   padding: 0 5% 0 0;
 }
 
 
