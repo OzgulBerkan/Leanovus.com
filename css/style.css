@@ -30,7 +30,6 @@ header{
 
 main{
    padding: 41px 0;
-   /* background-image: url("../images/apple-cup-desk-7974.jpg"); */
    background-image: url("../images/background-image/employee-work-on-laptop-2000.jpg");
    background-size: cover;
    background-repeat: no-repeat;
@@ -56,7 +55,7 @@ h1{
 }
 
 .container p{
-   padding: 30px 181px;
+   padding: 30px 15%;
    font-family: "Open Sans";
    font-size:22px;
    text-align: justify;
