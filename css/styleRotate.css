@@ -14,10 +14,6 @@
    opacity: 0;
 }
 
-#text{
-   color: white;
-}
-
 
 @keyframes animate{
    0%{
