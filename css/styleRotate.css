@@ -1,8 +1,7 @@
 .box{
    font-family: sans-serif;
    text-shadow:0 2px 2px rgba(0, 0, 0, 0.5);
-   margin: 0 32%;
-   /*text-align: center;*/
+   padding: 0 29%;
    font-size: 30px;
    color:#3cd6ce;
    height: 75px;
@@ -15,6 +14,9 @@
    opacity: 0;
 }
 
+#text{
+   color: white;
+}
 
 
 @keyframes animate{
