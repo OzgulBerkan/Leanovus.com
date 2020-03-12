@@ -45,6 +45,10 @@ main .container{
    justify-content: center;
 }
 
+#wordWe{
+   color: white;
+}
+
 h1{
    padding: 47px 50px;
    font-size:30px;
@@ -64,14 +68,14 @@ h1{
 
 h1,.container p{
    margin: 0;
-   color:white;
+   color: white;
 }
 
 .word{
 }
 
 #smallTurquise{
-   color:#3cd6ce;
+   color: #3cd6ce;
    font-weight: 700;
 }
 
