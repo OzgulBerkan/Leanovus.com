@@ -57,9 +57,9 @@ h1{
 .container p{
    padding: 27px 16%;
    font-family: "Open Sans";
-   font-size: 20px;
+   font-size: 21px;
    font-style: italic;
-   text-align: justify;
+   text-align: center;
    line-height: 34px;
    letter-spacing: .4px;
 }
@@ -102,7 +102,7 @@ footer{
 }
 
 #sendEmail{
-   padding: 19px;
+   padding: 10px 0;
    left: 0;
 }
 
@@ -123,7 +123,7 @@ footer{
 }
 
 #socialMedia{
-   padding: 18.25px 20px;
+   padding: 5.25px 0;
    right: 0;
 }
 
