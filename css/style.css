@@ -122,12 +122,12 @@ footer{
 }
 
 #socialMedia{
-   padding: 3.25px 0;
+   padding: 6px 0;
    right: 0;
 }
 
 #twitterIcon, #linkedinIcon{
-   width: 30px;   
+   width: 26px;   
    text-decoration: none;
 }
 
