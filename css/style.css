@@ -55,9 +55,9 @@ h1{
 }
 
 .container p{
-   padding: 24px 14% 18px;
+   padding: 24px 17% 18px;
    font-family: "Open Sans",sans-serif;
-   font-size: 21px;
+   font-size: 22px;
    font-style: italic;
    text-align: center;
    line-height: 34px;
@@ -132,16 +132,18 @@ footer{
 
 #copyright{
    position: relative;
-   color: #bbbbbb;
-   font-size: 12px;
+   color: white;
+   background: #1e1e1e;
+   font-size: 11px;
    text-align: center;
 }
 
 #copyright p{
-   margin: 6px;
+   margin: 0px;
+   padding-bottom: 6px;
 }
 
 #privacy{
    color:rgb(243, 235, 235);
-   font-size: 14px;
+   font-size: 11px;
 }
